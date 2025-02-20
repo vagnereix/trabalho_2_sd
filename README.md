@@ -1,5 +1,9 @@
 # Relatório – Trabalho 2: Comunicação Remota via RMI com Protocolo JSON
 
+> [!NOTE]
+>
+> 🎉 [Vídeo demo](https://tree-view-app-theta.vercel.app/)
+
 ## 1. Objetivo
 
 Este trabalho consistiu em evoluir a implementação do Trabalho 1 (sistema de biblioteca) para um ambiente distribuído, utilizando a comunicação cliente-servidor baseada em RMI e um protocolo customizado de requisição-resposta. O protocolo empacota mensagens em JSON contendo os campos: _messageType_, _requestId_, _objectReference_, _methodId_ e _arguments_. Além disso, os métodos obrigatórios, como **doOperation**, **getRequest** e **sendReply**, foram implementados.
